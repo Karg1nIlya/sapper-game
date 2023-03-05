@@ -1,0 +1,21 @@
+.board {
+    height: 100%;
+    background-color: black;
+    width: auto;
+    border-radius: 7px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board__number {
+    color: red;
+    width: 37px;
+    height: 100%;
+    font-size: 72px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
